@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Press Start 2P", system-ui, sans-serif;
+  --font-mono: "VT323", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#87CEEB] text-[#5D2906] antialiased overflow-hidden selection:bg-[#7CFC00]/30;
+    image-rendering: pixelated;
+  }
+}
+
+@layer components {
+  .pixel-border {
+    @apply border-4 border-[#5D2906];
+    box-shadow: 4px 4px 0 0 rgba(0,0,0,0.2);
+  }
+  
+  .pixel-text-shadow {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  }
+}

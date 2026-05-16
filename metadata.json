@@ -1,0 +1,10 @@
+{
+  "name": "Aura Gesture System",
+  "description": "Next-gen laptop camera gesture interaction system with real-time hand tracking, energy charging mechanics, and immersive visual effects.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
